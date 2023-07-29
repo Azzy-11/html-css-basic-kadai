@@ -325,6 +325,7 @@ h3 {
 #cases {
   margin: 40px 0;
   width: 100%;
+  justify-content: space-between;
 }
 
 #cases > ul {
@@ -340,7 +341,9 @@ h3 {
 .case-card {
   background-color: #fff;
   min-height: 400px;
-  box-shadow: 10px 10px 10px #0d0d0d;
+  box-shadow: 10px 10px 15px 1px lightgray;
+  margin: 25px;
+  padding-bottom: 0;
 }
 
 .case-img {
